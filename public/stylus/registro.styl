@@ -1,0 +1,99 @@
+
+girs_oscuro = #333333
+
+.container
+  .reservation
+  .reservation_form
+    width 50%
+    margin 1.5em auto
+    .pasos
+      text-align center
+      margin-top 2em
+      margin-bottom 2em
+      line-height 5em
+      .line
+        width 10em
+      .number
+        border-radius 50%
+        background girs_oscuro
+        opacity 0.7
+        padding 1.5em
+        margin-left 5%
+        margin-right 5%
+    .registre
+      margin-top 1em
+      .form_registre
+        text-align center
+        .inputs
+          width 80%
+          margin 0 auto
+          .input_fechai
+          .input_horai
+          .input_fechasa
+          .input_horasa
+            position relative
+            display inline-block
+            width 45%
+            .horasa
+            .fechasa
+            .horai
+            .fechai
+              &:before
+                position absolute
+                right 1.2em
+                top 1.2em
+                font-size 1.4em
+                color girs_oscuro !important
+              input
+                margin 1em 0.5em
+                width 10em
+                padding-left 1em
+                padding-right 1.5em
+          .buttons
+            width 80%
+            margin 1em auto
+            text-align right
+        .inputs_info
+          width 80%
+          margin 0 auto
+          display none
+          .input_nombre
+          .input_cell
+          .input_email
+          .input_car
+            position relative
+            display inline-block
+            width 45%
+            .nombre
+            .email
+            .cell
+            .carr
+              &:before
+                position absolute
+                left 1em
+                top 1.3em
+                font-size 1.4em
+                color girs_oscuro !important
+              input
+                margin 1em 0.5em
+                width 10em
+                padding-left 2em
+                padding-right 0.5em
+            .carr
+              &:before
+                font-size 1.3em
+                left 1.1em
+          .input_email
+            .email
+              &:before
+                font-size 1.7em
+                left 0.8em
+                top 1em
+
+          .buttons
+            width 80%
+            margin 1em auto
+            text-align right
+
+  .reservation
+    width 100%

@@ -1,0 +1,33 @@
+{
+  "name": "parqueadero",
+  "version": "1.0.0",
+  "description": "Sitio web del parqueadero las palmas",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "stylus": "stylus -u nib -c -w -o public/css public/stylus/style.styl",
+    "bundle": "browserify public/js/index.js public/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/IvanVilla1585/Parqueadero.git"
+  },
+  "keywords": [
+    "parqueadero",
+    "las",
+    "palmas"
+  ],
+  "author": "Ivan Dario Villa Ramirez <trezeguet55@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanVilla1585/Parqueadero/issues"
+  },
+  "homepage": "https://github.com/IvanVilla1585/Parqueadero#readme",
+  "dependencies": {
+    "backbone-bootstrap-modals": "^0.3.2",
+    "express": "^4.13.4",
+    "grunt-cli": "^1.2.0",
+    "jquery": "^2.2.3",
+    "materialize-css": "^0.97.6"
+  }
+}

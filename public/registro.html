@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parqueadero</title>
+  <link rel="stylesheet" href="./css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <style type="text/css">
+  html, body { height: 100%; margin: 0; padding: 0; }
+  #map { height: 100%; }
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <figure>
+        <img src="images/logo.jpg" alt="">
+      </figure>
+    </div>
+    <div class="search">
+      <span class="icon-search icon-close">
+        <input type="text" placeholder="Buscar">
+      </span>
+    </div>
+    <aside class="redes">
+      <p class="telefono">Teléfono</p>
+      <p class="title_redes">Nuestras redes sociales</p>
+      <div class="redes_icons">
+        <a href="" class="facebook icon-facebook"></a>
+        <a href="" class="istagram icon-youtube"></a>
+        <a href="" class="youtube icon-instagram"></a>
+      </div>
+    </aside>
+  </header>
+  <nav class="nav">
+    <ul class="menu">
+      <li class="item">
+        <a href="#" class="icon-home3">Home</a>
+      </li>
+      <li class="item">
+        <a href="#">Reservas</a>
+      </li>
+      <li class="item">
+        <a href="#">Restaurante</a>
+      </li>
+      <li class="item">
+        <a href="#">Renta Car</a>
+      </li>
+      <li class="item">
+        <a href="#">Nosotros</a>
+      </li>
+      <li class="item">
+        <a href="#">Contacto</a>
+      </li>
+      <li class="item">
+        <a href="/blog.html">Blog</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="container">
+    <article class="banner">
+      <ul class="rslides">
+					<li><img src="/images/viaje.jpg" alt=""></li>
+					<li><img src="images/viaje2.jpg" id="imagen2" alt=""></li>
+			</ul>
+    </article>
+    <article class="reservation_form">
+      <div class="pasos">
+        <span class="line">            </span>
+        <span class="number">1</span>
+        <span class="line">            </span>
+        <span class="number">2</span>
+        <span class="line">            </span>
+        <span class="number">3</span>
+        <span class="line">            </span>
+      </div>
+      <div class="registre">
+        <form action="" class="form_registre">
+          <div class="inputs" id="inputs">
+            <div class="input_fechai">
+              <span class="icons calendar2 fechai">
+                <input type="text" name="fechai" id="fechai" placeholder="Fecha de Ingreso">
+              </span>
+            </div>
+            <div class="input_horai">
+              <span class="icons clock3 horai">
+                <input type="text" name="horai" id="horai" placeholder="Hora de Ingreso">
+              </span>
+            </div>
+            <div class="input_fechasa">
+              <span class="icons calendar2 fechasa">
+                <input type="text" name="fechasa" id="fechasa" placeholder="Fecha de Salida">
+              </span>
+            </div>
+            <div class="input_horasa">
+              <span class="icons clock3 horasa">
+                <input type="text" name="horasa" id="horasa" placeholder="Hora de Salida">
+              </span>
+            </div>
+            <div class="buttons">
+              <input type="button" name="siguiente" id="siguiente" class="siguiente" value="Siguiente">
+            </div>
+          </div>
+          <div class="inputs_info" id="inputs_info">
+            <div class="input_nombre">
+              <span class="icon-user nombre">
+                <input type="text" name="name" placeholder="Nombre Completo">
+              </span>
+            </div>
+            <div class="input_cell">
+              <span class="icons mobile cell">
+                <input type="text" name="name" placeholder="Número de Celular">
+              </span>
+            </div>
+            <div class="input_email">
+              <span class="icon-mail-envelope-closed email">
+                <input type="text" name="name" placeholder="Correo Electronico">
+              </span>
+            </div>
+            <div class="input_car">
+              <span class="icons car carr">
+                <input type="text" name="name" placeholder="Placa Vehiculo">
+              </span>
+            </div>
+            <div class="buttons">
+              <input type="button" name="reservar" id="reservar" class="reservar" value="Reserva">
+            </div>
+          </div>
+        </form>
+      </div>
+    </article>
+  </section>
+  <footer class="footer">
+    <div class="contacto">
+      <p>Título</p>
+      <p class="text_footer">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officiis dignissimos ducimus placeat tenetur dolor, adipisci numquam aut, quisquam laboriosam recusandae aliquam quam sunt provident nostrum sequi illo laudantium voluptatibus.
+      </p>
+      <form action="" class="form_contact">
+        <div class="inputs_footer">
+          <span class="icon-user">
+            <input type="text" placeholder="Nombre Completo">
+          </span>
+          <span class="icon-mail-envelope-closed">
+            <input type="text" placeholder="Correo Electrónico">
+          </span>
+        </div>
+        <input type="submit" class="boton colorBoton formaBoton" value="Enviar">
+      </form>
+    </div>
+    <div class="company">
+      <p>Empresa</p>
+      <a href="">Nosotros</a>
+      <a href="">Bolg</a>
+    </div>
+    <div class="help">
+      <p>Ayuda</p>
+      <a href="">Mapa del sitio</a>
+    </div>
+    <div class="redes_footer">
+      <div>
+        <p>Contáctanos</p>
+        <a href="">Contacto</a>
+        <a href="">Reserva</a>
+        <p>Visitanos en nuestras redes</p>
+        <aside class="redes">
+          <a href="" class="facebook icon-facebook"></a>
+          <a href="" class="istagram icon-youtube"></a>
+          <a href="" class="youtube icon-instagram"></a>
+        </aside>
+      </div>
+    </div>
+  </footer>
+   <script src="js/vendors/responsiveslides.min.js"></script>
+	<script>
+  		$(function() {
+    		$(".rslides").responsiveSlides();
+  		});
+	</script>
+  <script>
+  $(function() {
+  $( "#fechai" ).datepicker({
+      changeMonth: true,
+      changeYear: true
+    })
+    $( "#fechasa" ).datepicker({
+        changeMonth: true,
+        changeYear: true
+      })
+});
+</script>
+  <script src="js/slick.js"></script>
+ <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

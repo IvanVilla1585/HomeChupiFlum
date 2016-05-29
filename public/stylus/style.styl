@@ -1,0 +1,349 @@
+@import 'normalize.styl'
+@import 'fonts.styl'
+@import 'slides.styl'
+@import 'styleblog.styl'
+@import 'registro.styl'
+@import 'carrusel.styl'
+@import 'owlcarrusel.styl'
+@import 'mision.styl'
+
+girs_oscuro = #333333
+azul_facebook = #45619d
+azul_twitter = #1da1f2
+azul_istagram = #125688
+youtube = #e62117
+gris_mas_claro = #F0F0F0
+gris_claro = #cecece
+girs_oscuro = #333333
+
+footer
+  background gris_mas_claro
+input
+  line-height 2em
+.header
+
+  .nav-wrapper
+    figure
+      margin 0
+      height 70px
+      margin-left 0.5em
+      margin-top 0.15em
+      img
+        height 70px
+  .search
+  .redes
+    display inline-block
+    vertical-align top
+    margin-top 1.5em
+    .redes_icons
+      .facebook
+      .twitter
+      .istagram
+      .youtube
+        margin 0.2em
+
+      a
+        text-decoration none
+      .icon-facebook
+      .icon-twitter
+      .icon-instagram
+      .icon-youtube
+        font-size 2.5em
+      .icon-facebook
+        color azul_facebook
+      .icon-twitter
+        color azul_twitter
+      .icon-instagram
+        color azul_istagram
+      .icon-youtube
+        color youtube
+  .search
+    width 60%
+    text-align center
+    line-height: 8.2em
+    .icon-search
+      position relative
+      &:before
+         position absolute
+         left .5em
+         top 0
+         color girs_oscuro
+       input
+         padding-left 1.5em
+    .icon-close
+      position relative
+      &:after
+         position absolute
+         right 1em
+         top 0
+         color girs_oscuro
+  .redes
+    width 20%
+.nav
+  text-align center
+  .menu
+    list-style none
+    padding 0
+    margin 0
+    .item
+    	display inline-block
+    	a
+    		text-decoration none
+    		padding 1em
+    		display block
+    		border-top 5px solid transparent
+    		transition .3s border-top
+    		text-transform uppercase
+    		color girs_oscuro
+    		&:hover
+          border-top 5px solid girs_oscuro
+    .item
+      .icon-home3
+        &:before
+          margin-right .3em
+
+.tittle
+  text-align center
+  margin-bottom 2em
+
+.container_banner
+  .banner
+    margin 0
+    .img_banner
+      margin 0
+      img
+        width 100%
+.container_home
+  .quienes__somos
+    margin-bottom 3em
+    .contenedor_img
+      width 45%
+      display inline-block
+      margin-left 1em
+      figure
+        margin 0 auto
+        width 80%
+    .contenedor_descrip
+      width 45%
+      margin-left 1em
+      display inline-block
+      vertical-align top
+      p
+        width 400px
+        margin 0 auto
+  .images
+    .titlle
+      text-align center
+      margin-bottom 2em
+      width 100%
+      display block
+    .images_productos
+      width 100%
+      text-align center
+      .articulo
+        margin 0.5em
+        width 25em
+        display inline-block
+        figure
+          width 25em
+          margin 0
+          img
+            width 100%
+  .procesos
+    text-align center
+    .image_proceso
+    .container_texproce
+      display inline-block
+      vertical-align top
+    .container_texproce
+      .text_procesos
+        text-align justify
+        margin-top 4em
+
+    .image_proceso
+      figure
+        margin 0 auto
+        width 32em
+        img
+          width 100%
+
+    .data_fly
+    .data_time
+    .data_facebook
+      width 30%
+      display inline-block
+      vertical-align top
+      p
+        text-align center
+      figure
+        margin 0
+    .data_time
+      .time_info
+        .data_time_info
+          .info_text_time
+          .info_price_dolar
+            width 48%
+            display inline-block
+            vertical-align top
+          .info_price_dolar
+            text-align center
+            p
+              margin-top 0
+          figure
+            width 50px
+            img
+              width 50px
+          .search_form
+              text-align left
+              .div_serarch_input
+                position relative
+                width 60%
+                display inline-block
+                .icon-search
+                  &:before
+                    position absolute
+                    left 0.3em
+                    top 0.6em
+                    font-size 1.3em
+                    color girs_oscuro
+                  &:after
+                    position absolute
+                    right 1em
+                    font-size 1.4em
+                    top 0.5em
+                    color girs_oscuro
+                    cursor pointer
+                  .search__text
+                    line-height 2em
+                    padding-left 1.5em
+                    width 12.5em
+    .data_fly
+      .consult_fly
+        text-align right
+        margin-top 1em
+        a
+          text-decoration none
+          color #000
+          padding 0.5em 1em
+          border 1px solid girs_oscuro
+          border-radius 5px
+          background red
+          &:after
+            color girs_oscuro
+            margin-left 0.5em
+            font-size 1.4em
+            position relative
+            top 0.2em
+      figure
+        img
+          width 100%
+  .reservation
+  .images
+  .location
+  .time
+    min-height 500px
+.footer
+  padding-top 1em
+  padding-bottom 2em
+  .contacto
+  .company
+  .help
+  .redes_footer
+    display inline-block
+    width 24%
+  .company
+  .help
+  .redes_footer
+    vertical-align top
+    a
+      display block
+      margin 1em 0
+    div
+      width 70%
+      margin 0 auto
+      .redes
+        display flex
+        justify-content space-around
+        .facebook
+        .twitter
+        .istagram
+        .youtube
+          margin 0.2em
+          display inline-block
+        a
+          text-decoration none
+        .icon-facebook
+        .icon-twitter
+        .icon-instagram
+        .icon-youtube
+          font-size 2.5em
+        .icon-facebook
+          color azul_facebook
+        .icon-twitter
+          color azul_twitter
+        .icon-instagram
+          color azul_istagram
+        .icon-youtube
+          color youtube
+  .company
+  .help
+    p
+      width 50%
+      margin 1em auto
+    a
+      display block
+      width 50%
+      margin 1em auto
+  .contacto
+    margin-left 2em
+    .form_contact
+      .inputs_footer
+        position relative
+        .icon-mail-envelope-closed
+        .icon-user
+          &:before
+            position absolute
+            font-size 1.5em
+            left 0.1em
+            color girs_oscuro
+        .icon-mail-envelope-closed
+          &:before
+            bottom 1.8em
+        .icon-user
+          &:before
+            top 0.7em
+        span
+          input
+            width 17.5em
+            margin 0.5em 0
+            line-height 2em
+            padding-left 2em
+            color #1a1a1a
+      .boton
+        text-decoration none
+        color #fff
+        font-weight bold
+        font-size 18px
+        border-radius 10px
+        background-color girs_oscuro
+        box-shadow 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2)
+        position relative
+        border-bottom 1px solid rgba(255,255,255,0.2)
+        display inline-block
+        font-family Arial, Helvetica, sans
+        text-shadow 0px -1px 0px rgba(0,0,0,0.2)
+        transition all 0.20s linear
+
+      .boton:hover
+        box-shadow 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2)
+        color #fff !important
+
+      .boton:active
+         top 7px
+         box-shadow 0 2px 0 #393939, 0px 4px 4px rgba(0,0,0,0.4), inset 0px 2px 5px rgba(0,0,0,0.2)
+         color #fff !important
+
+      .formaBoton
+         border-radius 5px
+         padding-left 1em
+         padding-right 1em
